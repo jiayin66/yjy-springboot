@@ -1,0 +1,5 @@
+dameng: 
+  driver-class-name: dm.jdbc.driver.DmDriver
+  url: jdbc:dm://localhost/YourDbName
+  username: SYSDBA
+  password: SYSDBA
