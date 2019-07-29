@@ -1,5 +1,16 @@
 dameng: 
-  driver-class-name: dm.jdbc.driver.DmDriver
-  url: jdbc:dm://localhost/YourDbName
-  username: SYSDBA
-  password: SYSDBA
+  driverName: dm.jdbc.driver.DmDriver
+  url: jdbc:dm://10.76.129.246/zhjczyk
+  userName: LCSCX
+  password: 112233445566
+  #初始连接
+  initConn: 5
+  #空闲集合最多的连接数
+  maxConn: 5
+  #最大连接
+  maxActiveConn: 10
+  #等待时长
+  waitTime: 200
+  
+  
+  
